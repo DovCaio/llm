@@ -1,6 +1,7 @@
 import pipeline as pipeline
 from langgraph.graph import StateGraph, START, END
 from typing_extensions import TypedDict
+import streamlit as st
 
 class State(TypedDict):
     query: str
@@ -33,7 +34,7 @@ def feedback_and_self_check(state: State):
 
 def router(state: State):
     print(state["accept_sentences_or_not"])
-    if state["accept_sentences_or_not"] == "ESTÁ TUDO CERTO":
+    if "ESTÁ TUDO CERTO" in state["accept_sentences_or_not"]:
         return "ACEITO"
     return "Rejected + Feedback"
 
@@ -65,8 +66,42 @@ workflow.add_edge("safety_agent", END)
 
 optimizer_workflow = workflow.compile()
 
-state = optimizer_workflow.invoke({"query": "Quais são os direitos básicos de um cidadão?"})
+#state = optimizer_workflow.invoke({"query": "Quais são os direitos básicos de um cidadão?"})
+#print(state["final_response"])
 
-print(state["final_response"])
+def interface():
+    st.set_page_config(page_title="Chat Simples", page_icon="💬")
+
+    st.title("💬 Chatbot para justiça social")
+
+    # Guarda as mensagens no estado da sessão
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    # Mostra mensagens já enviadas
+    for msg in st.session_state.messages:
+        st.markdown(f"**{msg['user']}**: {msg['text']}")
+
+    # Caixa de entrada
+    user_input = st.text_input("Digite sua mensagem:")
+
+    if st.button("Enviar"):
+        if user_input.strip():
+            # Adiciona mensagem do usuário
+            st.session_state.messages.append({"user": "Você", "text": user_input})
+
+            # Resposta simples (poderia ser um modelo, API etc.)
+            state = optimizer_workflow.invoke({"query": user_input})
+            resposta = state["final_response"]
+            st.session_state.messages.append({"user": "Bot", "text": resposta})
+
+            st.rerun()
+    
+    
+
+
+if __name__ == "__main__":
+    print("Executa a interface")
+    interface()
 
 

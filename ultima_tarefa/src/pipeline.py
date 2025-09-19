@@ -47,9 +47,6 @@ def response_with_quotes(query: str, docs: list):
 
     response = f"""
 {result}
-
-Fontes:
-{all_quotes}
     """
     return (response, res["source_documents"])
 
