@@ -9,7 +9,7 @@ Status
 - Prova de conceito funcional — demo local
 - Licença: MIT
 
-Execução (local)
+Instalação requisitos
 ------------------
 ```bash
 # python venv
@@ -17,4 +17,15 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-Caso não 
+Caso não tenha os dados processados
+------------------------------------
+```bash
+cd ingest
+make injest
+```
+Execução
+---------
+```bash
+cd src
+make run
+```
