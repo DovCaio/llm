@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 import os
 import re
 
-save_in = "data/"
+save_in = "../data/data_for_rag"
+processing_put_on = "../data/processed"
 
 pdfs_urls = [
     "https://www.defensoriapublica.pr.def.br/sites/default/arquivos_restritos/files/migrados/File/Cartilha/CARTILHADIREITOSHUMANOSDIGITAL.pdf",
@@ -28,17 +29,11 @@ pdfs_urls = [
 ]
 
 def exist_directory(dir):
-
-    dir_path = os.path.dirname(dir)
     os.makedirs(dir, exist_ok=True)
 
-def exist_file(save_path):
-  if os.path.exists(save_path):
-        print(f"Arquivo {save_path} já existe")
-        return True
-  return False
 
-
+def exist_file(path):
+    return os.path.isfile(path)
 
 from pathlib import Path
 import pdfplumber
@@ -53,18 +48,18 @@ def extract_text_from_pdf(path: Path) -> str:
 
 
 def save_text_to_file(text, file_path):
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(text)
 
 REPROCESSING = True
 
 def process_pdf():
-  for filename in os.listdir("./data_for_rag"):
-      save_path = f"data_for_rag/{filename}"
-      path_txt = f"data/{filename.split('.')[0]}.txt"
+  for filename in os.listdir(save_in):
+      save_path = f"{save_in}/{filename}"
+      path_txt = f"{processing_put_on}/{filename.split('.')[0]}.txt"
       if not exist_file(path_txt) or REPROCESSING:
         text = extract_text_from_pdf(save_path)
-        print(text)
         save_text_to_file(text, path_txt)
 
 process_pdf()

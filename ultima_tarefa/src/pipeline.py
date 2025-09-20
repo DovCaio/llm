@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-vectorstore = FAISS.load_local("indice_faiss", embeddings, allow_dangerous_deserialization=True)
+vectorstore = FAISS.load_local("../data/indice_faiss", embeddings, allow_dangerous_deserialization=True)
 #retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 4})
 
 def retriever_agent(query: str):

@@ -41,8 +41,8 @@ def transform_into_chunks():
     )
     
     all_chunks = []
-    for filename in os.listdir("./data"):
-        path = Path("./data") / filename
+    for filename in os.listdir("../data/processed"):
+        path = Path("../data/processed") / filename
 
         if not path.is_file() or not filename.lower().endswith(".txt"):
             continue
@@ -76,7 +76,7 @@ vectorstore = FAISS.from_texts(
     metadatas=metadatas
 )
 
-vectorstore.save_local("indice_faiss")
+vectorstore.save_local("../data/indice_faiss")
 
 def test(query = "Quais são os direitos garantidos às pessoas idosas?"):
     docs = vectorstore.similarity_search(query, k=3)
