@@ -43,7 +43,7 @@ def response_with_quotes(query: str, docs: list):
     res = qa(query)
     result = res["result"]
     quotes = [f"- {doc.metadata.get('source')}" for doc in res["source_documents"]]
-    all_quotes = "\n".join(quotes)
+    #all_quotes = "\n".join(quotes)
 
     response = f"""
 {result}

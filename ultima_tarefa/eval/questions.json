@@ -1,0 +1,95 @@
+[
+
+    {
+        "id" : 1,
+        "question" : "Como o desmatamento afeta o direito dos povos indigenas",
+        "answer" : "Afeta o seu território, que é seu por diréito",
+        "arquivos" : [
+            "agenda_projeto_redd.pdf"
+        ]
+
+    },
+
+    {
+        "id" : 2,
+        "question" : "Quem são considerados pcd's?",
+        "answer" : "A Convenção Internacional sobre os Direitos das Pessoas com Deficiência afirma que o conceito de deficiência está em evolução e adota o modelo social para conceituar a deficiência, em contraposição ao modelo médico.",
+        "arquivos" : [
+            "CARTILHA_2023(1).pdf"
+        ]
+
+    },
+    {
+        "id" : 3,
+        "question" : "Como os direitos das crianças são afetadas pela emergência climática?",
+        "answer": "Em 2023, o Comitê dos Direitos da Criança da ONU publicou o Comentário Geral nº 26,reconhecendo o meio ambiente limpo, saudável e sustentável como um direito humano essencial à infância, e a emergência climática põe em risco esse direito",
+        "arquivos" : [
+            "CARTILHA_2025(1).pdf"
+        ]
+
+    },
+    {
+        "id" : 4,
+        "question" : "Ainda existe invasões contra povos indígenas ou quilombolas?",
+        "arquivos" : [
+            "CARTILHA_2025(1).pdf"
+        ]
+
+    },
+    {
+        "id" : 5,
+        "question" : "Ainda existe invasões contra povos indígenas ou quilombolas?",
+        "answer": "Sim, conselho Indigenista Missionário (CIMI/2023), revela que os povos indígenas enfrentam invasões constantes, conflitos e diversas formas de violência contra seus territórios.",
+        "arquivos" : [
+            "CARTILHA_2025(1).pdf"
+        ]
+
+    },
+
+    {
+        "id" : 6,
+        "question" : "O que é feito pelas pessoa em situação de rua que preciasm de documentos?",
+        "answer" : "A Defensoria Pública oferece atendimento especializado",
+        "arquivos" : [
+            "CARTILHA_ANADEP_CONDEGE.pdf"
+        ]
+    },
+
+    {
+        "id" : 7,
+        "question" : "Qual é o documento mais importante?",
+        "answer": "A certidão de nascimento",
+        "arquivos" : [
+            "CARTILHA_ANADEP_CONDEGE.pdf"
+        ]
+    },
+
+    {
+        "id" : 8,
+        "question" : "Quais são os tipos de violência domestica que uma mulher pode enfrentar?",
+        "answer": "Humilhar, xingar e diminuir a autoestima, Tirar a liberdade de crença, Fazer a mulher achar que está ficando louca, Controlar e oprimir a mulher, Expor a vida íntima, Atirar objetos, sacudir e apertar os braços, Forçar atos sexuais desconfortáveis, Impedir a mulher de prevenir a gravidez ou obrigá-la a abortar, Controlar o dinheiro ou reter documentos e Quebrar objetos da mulher",
+        "arquivos" : [
+            "CARTILHA_ANADEP_CONDEGE_ONLINE.pdf"
+        ]
+    },
+
+    {
+        "id" : 9,
+        "question" : "O que pode levar uma pessoa a ficar em situação de rua?",
+        "answer" : "Ausência de vínculos familiares, Perda de algum ente querido, Violência, Alcoolismo ou uso de drogas, Doença mental, Desemprego,Ausência de alternativas para a moradia regular.",
+        "arquivos" : [
+            "CARTILHA_CAMPANHA_24-DIGITAL.pdf"
+        ]
+    },
+    {
+        "id" : 10,
+        "question" : "Quantas pessoas estão em sitação de rua no brasil?",
+        "answer": "281.472 pessoas",
+        "arquivos" : [
+            "CARTILHA_CAMPANHA_24-DIGITAL.pdf"
+        ]
+    }
+
+
+
+]
