@@ -4,9 +4,13 @@ from langchain_ollama import OllamaLLM
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR.parent / "data" / "indice_faiss"
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-vectorstore = FAISS.load_local("../data/indice_faiss", embeddings, allow_dangerous_deserialization=True)
+vectorstore = FAISS.load_local(str(DATA_DIR), embeddings, allow_dangerous_deserialization=True)
 #retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 4})
 
 def retriever_agent(query: str):

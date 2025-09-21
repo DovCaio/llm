@@ -2,8 +2,8 @@
 
     {
         "id" : 1,
-        "question" : "Como o desmatamento afeta o direito dos povos indigenas",
-        "answer" : "Afeta o seu território, que é seu por diréito",
+        "question" : "Como o desmatamento afeta o direito dos povos indigenas?",
+        "answer" : "Afeta o seu território, que é garantido por direito", 
         "arquivos" : [
             "agenda_projeto_redd.pdf"
         ]

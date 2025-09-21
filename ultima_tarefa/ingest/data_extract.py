@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import os
 import re
 
-save_in = "../data/data_for_rag"
-processing_put_on = "../data/processed"
+save_in = "./data/data_for_rag"
+processing_put_on = "./data/processed"
 
 pdfs_urls = [
     "https://www.defensoriapublica.pr.def.br/sites/default/arquivos_restritos/files/migrados/File/Cartilha/CARTILHADIREITOSHUMANOSDIGITAL.pdf",
