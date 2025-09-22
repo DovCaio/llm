@@ -28,16 +28,9 @@
         ]
 
     },
+
     {
         "id" : 4,
-        "question" : "Ainda existe invasões contra povos indígenas ou quilombolas?",
-        "arquivos" : [
-            "CARTILHA_2025(1).pdf"
-        ]
-
-    },
-    {
-        "id" : 5,
         "question" : "Ainda existe invasões contra povos indígenas ou quilombolas?",
         "answer": "Sim, conselho Indigenista Missionário (CIMI/2023), revela que os povos indígenas enfrentam invasões constantes, conflitos e diversas formas de violência contra seus territórios.",
         "arquivos" : [
@@ -47,7 +40,7 @@
     },
 
     {
-        "id" : 6,
+        "id" : 5,
         "question" : "O que é feito pelas pessoa em situação de rua que preciasm de documentos?",
         "answer" : "A Defensoria Pública oferece atendimento especializado",
         "arquivos" : [
@@ -56,7 +49,7 @@
     },
 
     {
-        "id" : 7,
+        "id" : 6,
         "question" : "Qual é o documento mais importante?",
         "answer": "A certidão de nascimento",
         "arquivos" : [
@@ -65,7 +58,7 @@
     },
 
     {
-        "id" : 8,
+        "id" : 7,
         "question" : "Quais são os tipos de violência domestica que uma mulher pode enfrentar?",
         "answer": "Humilhar, xingar e diminuir a autoestima, Tirar a liberdade de crença, Fazer a mulher achar que está ficando louca, Controlar e oprimir a mulher, Expor a vida íntima, Atirar objetos, sacudir e apertar os braços, Forçar atos sexuais desconfortáveis, Impedir a mulher de prevenir a gravidez ou obrigá-la a abortar, Controlar o dinheiro ou reter documentos e Quebrar objetos da mulher",
         "arquivos" : [
@@ -74,7 +67,7 @@
     },
 
     {
-        "id" : 9,
+        "id" : 8,
         "question" : "O que pode levar uma pessoa a ficar em situação de rua?",
         "answer" : "Ausência de vínculos familiares, Perda de algum ente querido, Violência, Alcoolismo ou uso de drogas, Doença mental, Desemprego,Ausência de alternativas para a moradia regular.",
         "arquivos" : [
@@ -82,7 +75,7 @@
         ]
     },
     {
-        "id" : 10,
+        "id" : 9,
         "question" : "Quantas pessoas estão em sitação de rua no brasil?",
         "answer": "281.472 pessoas",
         "arquivos" : [

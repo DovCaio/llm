@@ -20,12 +20,15 @@ pip install -r requirements.txt
 Caso não tenha os dados processados
 ------------------------------------
 ```bash
-cd ingest
 make injest
 ```
 Execução
 ---------
 ```bash
-cd src
 make run
+```
+Avaliação
+---------
+```bash
+make eval
 ```

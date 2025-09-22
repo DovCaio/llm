@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "question": "Como o desmatamento afeta o direito dos povos indigenas?",
+        "llm_response": "\n Baseado nas informações explícitas disponíveis no contexto fornecido, o desmatamento afeta os direitos indígenas ao perturbar seus territórios tradicionais (Pajé Valmir da Conceiçao, Aldeia Reserva da Jaqueira, Porto Seguro/BA). No entanto, não há trechos específicos que expliquem como a regularização fundiária é reconhecida ou implementada para solucionar questões de terras e direitos territoriais dos povos indígenas no contexto fornecido.\n\nEm relação ao racismo dentro da sociedade, o texto menciona \"conflitos decorrentes do\" conflito sobre os direitos territórios, mas não há detalhes explícidos de como esse tratamento desvantajoso dos povos indígenas se relaciona com a dominação racial.\n\nFonte: https://www.academia.edu/64329705/Artigo_Conflito_Indigena_e_Direitos_Humanos_no_contexto_nacional_brasileiro_Um_estudo_de_caso_da_Aldeia_Reservada_da_Jaqueira_Pajé_Valmir_da_Conceiçao_Porto_Seguro_BA_Epistemologia_Etnoecologia\n    \n\nO conteúdo apresentado aqui, incluindo informações, análises e discussões, tem finalidade estritamente informativa e educacional. Ele não constitui, e não deve ser interpretado como, aconselhamento jurídico, financeiro, político ou de qualquer outra natureza profissional.",
+        "golden_answer": "Afeta o seu território, que é garantido por direito"
+    }
+]

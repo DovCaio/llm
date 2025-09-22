@@ -1,4 +1,8 @@
-import pipeline as pipeline
+if __name__ == "__main__": #Por conta do eval, que tem que importar isso daqui, isso dá problema, pois é invocado de um outro lugar
+    import pipeline as pipeline
+else:
+    import src.pipeline as pipeline
+
 from langgraph.graph import StateGraph, START, END
 from typing_extensions import TypedDict
 import streamlit as st
