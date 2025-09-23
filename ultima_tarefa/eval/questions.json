@@ -81,6 +81,95 @@
         "arquivos" : [
             "CARTILHA_CAMPANHA_24-DIGITAL.pdf"
         ]
+    },
+    {
+        "id" : 10,
+        "question" : "O que são direitos humanos?",
+        "answer": "Os direitos humanos são direitos essenciais a dignidade de todos, independentemente de raça, sexo, nacionalidade, etnia, idioma, religião ou qualquer outra condição.",
+        "arquivos" : [
+            "CARTILHADIREITOSHUMANOSDIGITALCARTILHADIREITOSHUMANOSDIGITAL.pdf"
+        ]
+    },
+    {
+        "id" : 11,
+        "question" : "Quem é que garante os direitos humanos?",
+        "answer": "É dever do Estado, através da Defensoria Pública",
+        "arquivos" : [
+            "CARTILHADIREITOSHUMANOSDIGITALCARTILHADIREITOSHUMANOSDIGITAL.pdf"
+        ]
+    },
+    {
+        "id" : 12,
+        "question" : "Quem é que garante os direitos humanos?",
+        "answer": "É dever do Estado, através da Defensoria Pública",
+        "arquivos" : [
+            "CARTILHADIREITOSHUMANOSDIGITALCARTILHADIREITOSHUMANOSDIGITAL.pdf"
+        ]
+    },
+
+    {
+        "id" : 13,
+        "question" : "Quem tem uma grande vunerabilidade no mercado de consumo de créditos",
+        "answer": "Os idosos",
+        "arquivos" : [
+            "CARTILHADIREITOSHUMANOSDIGITALCARTILHADIREITOSHUMANOSDIGITAL.pdf"
+        ]
+    },
+    {
+        "id" : 14,
+        "question" : "Quem tem uma grande vunerabilidade no mercado de consumo de créditos",
+        "answer": "Os idosos",
+        "arquivos" : [
+            "Cartilha_Endividamento_Pessoa_Idosa_2025.pdf"
+        ]
+    },
+    {
+        "id" : 15,
+        "question" : "Se eu ver algum sofrendo LGBTIFOBIA, o que devo fazer?",
+        "answer": "Registrar boletim de ocorrência",
+        "arquivos" : [
+            "CARTILHA_LGBT.pdf"
+        ]
+    },
+    {
+        "id" : 16,
+        "question" : "Se eu ver algum sofrendo LGBTIFOBIA, onde posso buscar ajuda? quem que proteje essas pessoas?",
+        "answer": "Disque 129, quem protege essas pessoas são as Defensorias Públicas",
+        "arquivos" : [
+            "CARTILHA_LGBT.pdf"
+        ]
+    },
+    {
+        "id" : 17,
+        "question" : "Como eu posso reconhecer um assédio moral?",
+        "answer": "Privar do acesso aos instrumentos necessários para realizar o trabalho. Sonegar informações necessárias à realização de suas tarefas ou fornecer informações que induzam ao erro; Não atribuir atividades à pessoa, deixando-a sem tarefas a cumprir, provocando a sensação de inutilidade e de incompetência, ou colocando-a em uma situação humilhante frente aos colegas de trabalho; Contestar sistematicamente as suas decisões e criticar o seu trabalho de modo exagerado ou injusto, em especial na frente de outras pessoas; Entregar, de forma permanente, quantidade superior de tarefas comparativamente a seus colegas; Exigir a execução de tarefas urgentes de forma permanente e desnecessária; Atribuir, de propósito e com frequência, tarefas inferiores ou superiores, distintas das suas atribuições; Controlar a frequência e o tempo de utilização de banheiro; Pressionar para que não exerçam seus direitos estatutários ou trabalhistas;",
+        "arquivos" : [
+            "DPU-cartilha-Assedio-moral-e-sexual-v4-pgs-indiv.pdf"
+        ]
+    },
+    {
+        "id" : 18,
+        "question" : "Com eu posso abrir Recursos contra o resultado da heteroidentificação?",
+        "answer": "é possível a interposição de recurso contra a heteroidentificação, tal como previsto no art. 11 da Resolução CSDPU nº 157/2020. A norma prevê as hipóteses de recur- so: ilegalidade ou abuso de poder, bem como que o pedido será direcionado ao Defensor Público-Chefe da respectiva Unidade da DPU.",
+        "arquivos" : [
+            "guia_de_orientacao_comissoes_de_heteroidentificacao_etnico_racial_versaofinal_menor.pdf"
+        ]
+    },
+    {
+        "id" : 19,
+        "question" : "O que o sistema de defensorias de direitos humanos faz?",
+        "answer": "opera em todo país em diálogo constante com a sociedade e com o Estado, a fim de identificar questões de maior sensibilidade para os grupos em situação de maior vulnerabilidade e de promover a proteção dos direitos humanos e a tutela coletiva dos interesses desses segmentos, com o objetivo de construir uma sociedade livre, justa e solidá-ria, conforme preconiza a Constituição Federal.",
+        "arquivos" : [
+            "Guia_Pr_C3_A1tico_de_Rotinas_Administrativas_das_Defensorias_Regionais_v2.pdf"
+        ]
+    },
+    {
+        "id" : 20,
+        "question" : "Pessoas que foram submetidas a trabalho escravo tem direito de receber alguma assistência? Se sim qual?",
+        "answer": "Sim, são pagas verbas trabalhistas e danos morais, para calcular quanto é necessário: recolher depoimentos dos trabalhadores e os demais elementos verificados durante a investigação.",
+        "arquivos" : [
+            "Protocolo_GTCEC_2106.pdf"
+        ]
     }
 
 
